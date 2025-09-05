@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(226, 212, 212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.card {
+    background-color: rgb(109, 56, 56)
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(5, 95, 197, 0.856);
+    width: 300px;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.card h1 {
+    font-size: 24px;
+    margin: 10px;
+}
+
+.card P {
+    font-size: 14PX;
+    color: rgb(121, 93, 93);
+}
+
+.buttons a {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: rgb(201, 190, 190);
+    background-color: royalblue;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.buttons a:hover {
+    background-color: blue;
+}
